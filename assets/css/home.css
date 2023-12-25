@@ -56,6 +56,259 @@ header .navigation i {
   margin: 5px 0px 0px 15px;
 }
 
+#banner {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+#banner .banner-wright {
+  padding: 80px;
+  margin-left: 35px;
+}
+#banner .banner-wright .banner-amazing {
+  margin: 15px 0 30px 0;
+  width: 40%;
+}
+#banner .banner-wright .banner-amazing h1 {
+  font-size: 60px;
+}
+#banner .banner-wright button {
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #fc5f5f;
+  border: none;
+  transition: 0.5s;
+}
+#banner .banner-wright button:hover {
+  background-color: #75c32c;
+  transition: 0.5s;
+}
+
+#elementor {
+  margin: 50px 0 0 150px;
+}
+#elementor h6 {
+  color: rgba(0, 0, 0, 0.514);
+}
+#elementor i {
+  font-size: 25px;
+  color: rgba(76, 171, 3, 0.799);
+}
+#elementor .collection {
+  display: flex;
+  position: relative;
+}
+#elementor .collection i {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+#elementor .collection .collection-desc {
+  margin-left: 55px;
+}
+#elementor .shipping {
+  display: flex;
+  position: relative;
+}
+#elementor .shipping i {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+#elementor .shipping .shipping-desc {
+  margin-left: 55px;
+}
+#elementor .money {
+  display: flex;
+  position: relative;
+}
+#elementor .money i {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+#elementor .money .money-desc {
+  margin-left: 55px;
+}
+
+#blog-part {
+  margin-top: 70px;
+}
+#blog-part .blog-card {
+  border-radius: 25px;
+  background-color: #eeedf3;
+  transition: 0.5s;
+}
+#blog-part .blog-card:hover {
+  box-shadow: 5px 2px 25px 10px #eeedf3;
+  transition: 0.5s;
+}
+#blog-part .blog-card .blog-image {
+  width: 100%;
+}
+#blog-part .blog-card .blog-image img {
+  width: 100%;
+  border-radius: 25px;
+}
+#blog-part .blog-card .blog-image .blog-wright {
+  padding: 20px;
+  margin: 20px 0px 20px 50px;
+  width: 70%;
+}
+#blog-part .blog-card .blog-image .blog-wright p {
+  color: #616167;
+}
+#blog-part .blog-card .blog-image .blog-wright a {
+  margin-bottom: 50px;
+  color: rgba(255, 0, 0, 0.666);
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+#blog-part .blog-card .blog-image .blog-wright a:hover {
+  color: #5d6167;
+  transition: 0.5s;
+}
+
+#featured .featured-desc {
+  text-align: center;
+  margin-top: 150px;
+}
+#featured .featured-desc h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#featured .featured-desc p {
+  margin-top: 25px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 17px;
+}
+
+#product .product-image {
+  margin: 25px 0;
+  width: 100%;
+}
+#product .product-image:hover .heart-icon {
+  opacity: 1;
+  transition: 0.5s;
+}
+#product .product-image:hover .wishlist-icon {
+  opacity: 1;
+  transition: 0.5s;
+}
+#product .product-image .wishlist-icon {
+  position: relative;
+  opacity: 0;
+  transition: 0.5s;
+}
+#product .product-image .wishlist-icon i {
+  position: absolute;
+  display: block;
+  top: 8px;
+  right: 14px;
+  background-color: white;
+  color: rgba(43, 47, 56, 0.737254902);
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 7px;
+}
+#product .product-image .wishlist-icon i:hover {
+  color: #2b2f38;
+  transition: 0.5s;
+}
+#product .product-image .heart-icon {
+  position: relative;
+  opacity: 0;
+  transition: 0.5s;
+}
+#product .product-image .heart-icon i {
+  position: absolute;
+  top: 55px;
+  right: 14px;
+  background-color: white;
+  color: rgba(255, 0, 0, 0.547);
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 7px;
+}
+#product .product-image .heart-icon i:hover {
+  color: red;
+  transition: 0.5s;
+}
+#product .product-image img {
+  width: 100%;
+}
+#product .product-image p {
+  margin-top: 15px;
+  color: rgba(93, 97, 103, 0.4784313725);
+}
+#product .product-image h5 {
+  font-weight: 400;
+}
+#product .product-image span {
+  font-weight: 900;
+  color: rgba(43, 47, 56, 0.6901960784);
+}
+
+#help {
+  margin: 150px 0 150px 0;
+}
+#help .help-title h4 {
+  width: 70%;
+}
+#help .help-title i {
+  color: #FC7C7C;
+  margin-top: 50px;
+}
+#help .help-title i:hover {
+  color: #5D6167;
+}
+#help .help-title span {
+  color: #FC7C7C;
+  font-size: 13px;
+  font-weight: 500;
+}
+#help .help-title span:hover {
+  color: #5D6167;
+  transition: 0.5s;
+}
+#help .help-text p {
+  width: 80%;
+  color: #5D617E;
+}
+
+#interested .interested-desc {
+  text-align: center;
+  margin-top: 150px;
+}
+#interested .interested-desc .interested-wright h2 {
+  font-weight: 700;
+  font-size: 40px;
+  width: 50%;
+  margin-left: 330px;
+}
+#interested .interested-desc .interested-wright p {
+  margin: 25px 0px 35px 300px;
+  width: 55%;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 17px;
+}
+#interested .interested-desc button {
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #fc5f5f;
+  border: none;
+  transition: 0.5s;
+}
+#interested .interested-desc button:hover {
+  background-color: #75c32c;
+  transition: 0.5s;
+}
+
 footer .footer-top .natural {
   margin-left: 20px;
 }
@@ -84,6 +337,7 @@ footer .footer-top .natural .social i {
   padding: 5px;
   background-color: rgba(2, 2, 37, 0.641);
   color: white;
+  transition: 0.5s;
 }
 footer .footer-top .natural .social i:hover {
   background-color: green;
