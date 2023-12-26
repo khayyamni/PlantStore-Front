@@ -42,8 +42,70 @@ header .navigation {
   display: flex;
   margin: 10px 0px 0px 10px;
 }
-header .navigation .sub-menu a {
+header .navigation .store {
+  height: 39px;
+  position: relative;
+  margin-right: 10px;
+}
+header .navigation .store:hover .sub-menu {
+  opacity: 1;
+  z-index: 1;
+  border-top-width: thick;
+}
+header .navigation .store i {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  font-size: 13px;
+}
+header .navigation .store .sub-menu {
+  position: absolute;
+  background-color: white;
+  width: 220px;
+  height: 100px;
+  padding: 13px;
+  left: -20px;
+  opacity: 0;
+  z-index: -1;
+  border-top: 1px solid red;
+  margin: 1em 0;
+}
+header .navigation .store .sub-menu a {
   display: block;
+  padding: 7px;
+}
+header .navigation .account {
+  position: relative;
+  margin-right: 10px;
+  height: 39px;
+}
+header .navigation .account:hover .login {
+  opacity: 1;
+  z-index: 1;
+  border-top-width: thick;
+}
+header .navigation .account i {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  font-size: 13px;
+}
+header .navigation .account .login {
+  position: absolute;
+  background-color: white;
+  width: 220px;
+  height: 100px;
+  margin-top: 20px;
+  padding: 13px;
+  left: -20px;
+  opacity: 0;
+  z-index: -1;
+  border-top: 1px solid red;
+  margin: 1em 0;
+}
+header .navigation .account .login a {
+  display: block;
+  padding: 7px;
 }
 header .navigation a {
   margin-right: 25px;
@@ -259,19 +321,25 @@ header .navigation i {
 #help .help-title h4 {
   width: 70%;
 }
-#help .help-title i {
+#help .help-title .contact {
+  height: 10px;
+}
+#help .help-title .contact i {
+  transition: 0.5s;
   color: #FC7C7C;
   margin-top: 50px;
 }
-#help .help-title i:hover {
-  color: #5D6167;
-}
-#help .help-title span {
+#help .help-title .contact span {
   color: #FC7C7C;
   font-size: 13px;
   font-weight: 500;
+  transition: 0.5s;
 }
-#help .help-title span:hover {
+#help .help-title .contact:hover i {
+  color: #5D6167;
+  transition: 0.5s;
+}
+#help .help-title .contact:hover span {
   color: #5D6167;
   transition: 0.5s;
 }
@@ -280,14 +348,73 @@ header .navigation i {
   color: #5D617E;
 }
 
+#testimonial .overview .text {
+  margin-top: 15px;
+}
+#testimonial .overview .text h1 {
+  color: #2B2F38;
+}
+#testimonial .overview .text p {
+  font-size: 15px;
+  margin-top: 25px;
+  color: #676167;
+}
+#testimonial .overview .since {
+  margin-top: 70px;
+}
+#testimonial .overview .since .image-left {
+  width: 100%;
+}
+#testimonial .overview .since .image-left img {
+  border-radius: 8% 8% 8% 0;
+  width: 100%;
+}
+#testimonial .overview .since .review {
+  margin-top: 70px;
+  width: 90%;
+}
+#testimonial .overview .since .review p {
+  color: #676167;
+}
+#testimonial .overview .since .review span {
+  color: #676167;
+  font-size: 12px;
+}
+#testimonial .since .image-right {
+  width: 100%;
+  padding: 10px;
+}
+#testimonial .since .image-right img {
+  border-radius: 8% 8% 8% 0;
+  width: 100%;
+}
+#testimonial .since .review {
+  margin-top: 70px;
+  width: 90%;
+}
+#testimonial .since .review p {
+  color: #676167;
+}
+#testimonial .since .review span {
+  color: #676167;
+  font-size: 12px;
+}
+
 #interested .interested-desc {
   text-align: center;
   margin-top: 150px;
+  position: relative;
+}
+#interested .interested-desc .interested-wright {
+  position: absolute;
+  top: 40px;
+  left: 60px;
 }
 #interested .interested-desc .interested-wright h2 {
   font-weight: 700;
   font-size: 40px;
   width: 50%;
+  color: #2B2F38;
   margin-left: 330px;
 }
 #interested .interested-desc .interested-wright p {
@@ -297,9 +424,9 @@ header .navigation i {
   font-size: 17px;
 }
 #interested .interested-desc button {
-  width: 140px;
+  width: 170px;
   height: 45px;
-  border-radius: 20px;
+  border-radius: 25px;
   background-color: #fc5f5f;
   border: none;
   transition: 0.5s;
@@ -308,7 +435,16 @@ header .navigation i {
   background-color: #75c32c;
   transition: 0.5s;
 }
+#interested .interested-desc .background {
+  margin-bottom: 100px;
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+}
 
+footer .footer-top {
+  margin-bottom: 70px;
+}
 footer .footer-top .natural {
   margin-left: 20px;
 }
@@ -371,4 +507,7 @@ footer .footer-top .touch-footer p {
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.586);
   font-weight: 500;
+}
+footer .footer-bottom {
+  margin-bottom: 70px;
 }/*# sourceMappingURL=home.css.map */

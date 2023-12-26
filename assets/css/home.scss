@@ -47,11 +47,90 @@ header {
     display: flex;
     margin: 10px 0px 0px 10px;
 
-    .sub-menu {
-      a {
-        display: block;
+    .store{
+
+      height: 39px;
+      position: relative;
+      margin-right: 10px;
+
+      &:hover{
+        .sub-menu{
+          opacity: 1;
+          z-index: 1;
+          border-top-width: thick;
+        }
+      }
+      
+      i{
+        position: absolute;
+        top: 4px;
+        right: 8px;
+        font-size: 13px;
+      }
+
+      .sub-menu {
+        position: absolute;
+        background-color: white;
+        width: 220px;
+        height: 100px;
+        padding: 13px;
+        left: -20px;
+        opacity: 0;
+        z-index: -1;
+        border-top: 1px solid red;
+        margin: 1em 0;
+        
+        a {
+          display: block;
+          padding: 7px;
+          
+        }
       }
     }
+
+    
+    .account{
+
+      position: relative;
+      margin-right: 10px;
+      height: 39px;
+
+      &:hover{
+        .login{
+          opacity: 1;
+          z-index: 1;
+          border-top-width: thick;
+        }
+      }
+    
+      i{
+        position: absolute;
+        top: 4px;
+        right: 8px;
+        font-size: 13px;
+      }
+
+      .login {
+        position: absolute;
+        background-color: white;
+        width: 220px;
+        height: 100px;
+        margin-top: 20px;
+        padding: 13px;
+        left: -20px;
+        opacity: 0;
+        z-index: -1;
+        border-top: 1px solid red;
+        margin: 1em 0;
+        
+        a {
+          display: block;
+          padding: 7px;
+          
+        }
+      }
+    }
+
 
     a {
       margin-right: 25px;
@@ -300,25 +379,43 @@ header {
     margin: 150px 0 150px 0;
 
     .help-title{
-        h4{
-            width: 70%;
-        }
+
+      
+      h4{
+        width: 70%;
+    }
+      
+      .contact{
+        height: 10px;
+        
+
+
         i{
-            color: #FC7C7C;
-            margin-top: 50px;
-            &:hover{
-                color: #5D6167;
-            }
-        }
-        span{
-            color: #FC7C7C;
-            font-size: 13px;
-            font-weight: 500;
-            &:hover{
-                color: #5D6167;
-                transition: 0.5s;
-            }
-        }
+          transition: 0.5s;
+          color: #FC7C7C;
+          margin-top: 50px;
+          
+      }
+      span{
+          color: #FC7C7C;
+          font-size: 13px;
+          font-weight: 500;
+          transition: 0.5s;
+      }
+
+        &:hover{
+          i{
+          color: #5D6167;
+          transition: 0.5s;
+          }
+          span{
+            color: #5D6167;
+              transition: 0.5s;
+          }
+      }
+      }
+        
+       
     }
     .help-text{
      p{
@@ -328,16 +425,87 @@ header {
     }
 }
 
+
+
+#testimonial{
+  .overview{
+    .text{
+      margin-top: 15px;
+      h1{
+        color: #2B2F38;
+      }
+      p{
+        font-size: 15px;
+        margin-top: 25px;
+        color: #676167;
+
+      }
+    }
+    .since{
+      margin-top: 70px;
+      .image-left{
+        width: 100%;
+        img{
+          border-radius: 8% 8% 8% 0;
+          width: 100%;
+        }
+      }
+      .review{
+        margin-top: 70px;
+        width: 90%;
+        p{
+          color: #676167;
+        }
+        span{
+          color: #676167;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  
+  .since{
+    .image-right{
+      width: 100%;
+      padding: 10px;
+      img{
+        border-radius: 8% 8% 8% 0;
+        width: 100%;
+      }
+    }
+    .review{
+      margin-top: 70px;
+      width: 90%;
+      p{
+        color: #676167;
+      }
+      span{
+        color: #676167;
+        font-size: 12px;
+      }
+    }
+  }
+
+
+}
+
+
+
 //interested start
 #interested {
   .interested-desc {
     text-align: center;
     margin-top: 150px;
+    position: relative;
     .interested-wright {
+      position: absolute;
+      top: 40px;
+      left: 60px;
       h2 {
         font-weight: 700;
         font-size: 40px;
         width: 50%;
+        color: #2B2F38;
         margin-left: 330px;
       }
       p {
@@ -349,9 +517,9 @@ header {
     }
 
     button {
-      width: 140px;
+      width: 170px;
       height: 45px;
-      border-radius: 20px;
+      border-radius: 25px;
       background-color: #fc5f5f;
       border: none;
       transition: 0.5s;
@@ -361,6 +529,14 @@ header {
         transition: 0.5s;
       }
     }
+
+    .background{
+      margin-bottom: 100px;
+      background-position: bottom;  
+      background-size: cover;
+      height: 100vh;
+    }
+
   }
 }
 // interested end
@@ -368,6 +544,7 @@ header {
 //footer start
 footer {
   .footer-top {
+    margin-bottom: 70px;
     .natural {
       margin-left: 20px;
       .image {
@@ -443,5 +620,10 @@ footer {
       }
     }
   }
+
+  .footer-bottom{
+    margin-bottom: 70px;
+  }
+
 }
 //footer end
