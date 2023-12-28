@@ -126,280 +126,137 @@ header .navigation i {
   border-bottom-right-radius: 70px;
 }
 #banner .banner-wright {
-  padding: 80px;
+  padding: 85px;
   margin-left: 35px;
 }
-#banner .banner-wright .banner-amazing {
-  margin: 15px 0 30px 0;
-  width: 40%;
-}
-#banner .banner-wright .banner-amazing h1 {
+#banner .banner-wright h1 {
+  margin-top: 150px;
   font-size: 60px;
+  font-weight: 700;
+  color: #2b2f38;
 }
-#banner .banner-wright button {
-  width: 140px;
+
+#description .desc {
+  margin-top: 100px;
+}
+#description .desc h3 {
+  color: rgba(43, 47, 56, 0.9058823529);
+}
+#description .desc .desc-right .desc-text {
+  width: 80%;
+}
+#description .desc .desc-right .desc-text p {
+  color: #5d6167;
+  line-height: 30px;
+}
+#description .desc .desc-right .desc-button {
+  margin-top: 25px;
+}
+#description .desc .desc-right .desc-button button {
+  width: 150px;
   height: 45px;
   border-radius: 30px;
   background-color: #fc5f5f;
   border: none;
   transition: 0.5s;
 }
-#banner .banner-wright button:hover {
-  background-color: #75c32c;
+#description .desc .desc-right .desc-button button:hover {
+  background-color: #3f7d05;
   transition: 0.5s;
 }
 
-#elementor {
-  margin: 50px 0 0 150px;
-}
-#elementor h6 {
-  color: rgba(0, 0, 0, 0.514);
-}
-#elementor i {
-  font-size: 25px;
-  color: rgba(76, 171, 3, 0.799);
-}
-#elementor .collection {
-  display: flex;
-  position: relative;
-}
-#elementor .collection i {
-  position: absolute;
-  top: 15px;
-  left: 0px;
-}
-#elementor .collection .collection-desc {
-  margin-left: 55px;
-}
-#elementor .shipping {
-  display: flex;
-  position: relative;
-}
-#elementor .shipping i {
-  position: absolute;
-  top: 15px;
-  left: 0px;
-}
-#elementor .shipping .shipping-desc {
-  margin-left: 55px;
-}
-#elementor .money {
-  display: flex;
-  position: relative;
-}
-#elementor .money i {
-  position: absolute;
-  top: 15px;
-  left: 0px;
-}
-#elementor .money .money-desc {
-  margin-left: 55px;
-}
-
-#blog-part {
-  margin-top: 70px;
-}
-#blog-part .blog-card {
-  border-radius: 25px;
-  background-color: #eeedf3;
-  transition: 0.5s;
-}
-#blog-part .blog-card:hover {
-  box-shadow: 5px 2px 25px 10px #eeedf3;
-  transition: 0.5s;
-}
-#blog-part .blog-card .blog-image {
-  width: 100%;
-}
-#blog-part .blog-card .blog-image img {
-  width: 100%;
-  border-radius: 25px;
-}
-#blog-part .blog-card .blog-image .blog-wright {
-  padding: 20px;
-  margin: 20px 0px 20px 50px;
-  width: 70%;
-}
-#blog-part .blog-card .blog-image .blog-wright p {
-  color: #616167;
-}
-#blog-part .blog-card .blog-image .blog-wright a {
-  margin-bottom: 50px;
-  color: rgba(255, 0, 0, 0.666);
-  font-size: 15px;
-  font-weight: 600;
-  transition: 0.5s;
-}
-#blog-part .blog-card .blog-image .blog-wright a:hover {
-  color: #5d6167;
-  transition: 0.5s;
-}
-
-#featured .featured-desc {
+#company .company {
   text-align: center;
   margin-top: 150px;
 }
-#featured .featured-desc h2 {
-  font-size: 40px;
-  font-weight: 700;
+#company .company .company-wright {
+  top: 40px;
+  left: 60px;
 }
-#featured .featured-desc p {
-  margin-top: 25px;
+#company .company .company-wright h2 {
+  font-weight: 500;
+  font-size: 45px;
+  width: 50%;
+  color: #2b2f38;
+  margin-left: 300px;
+}
+#company .company .company-wright p {
+  margin: 25px 0px 35px 300px;
+  width: 50%;
   color: rgba(0, 0, 0, 0.7);
   font-size: 17px;
 }
-
-#product .product-image {
-  margin: 25px 0;
+#company .company .image img {
+  border-radius: 20px;
   width: 100%;
 }
-#product .product-image:hover .wishlist-icon {
-  opacity: 1;
-  transition: 0.5s;
+#company .company .company-desc {
+  text-align: start;
+  line-height: 35px;
+  margin-top: 60px;
 }
-#product .product-image:hover .bucket-icon {
-  opacity: 1;
-  transition: 0.5s;
+#company .company .company-desc .pp {
+  width: 69%;
+  color: #6b6d71;
 }
-#product .product-image .bucket-icon {
-  position: relative;
-  opacity: 0;
-  transition: 0.5s;
-}
-#product .product-image .bucket-icon i {
-  position: absolute;
-  display: block;
-  top: 8px;
-  right: 14px;
-  background-color: white;
-  color: black;
-  font-size: 20px;
-  border-radius: 50%;
-  padding: 7px;
-}
-#product .product-image .bucket-icon i:hover {
-  color: red;
-  transition: 0.5s;
-}
-#product .product-image .wishlist-icon {
-  position: relative;
-  opacity: 0;
-  transition: 0.5s;
-}
-#product .product-image .wishlist-icon .wishlist {
-  color: red;
-}
-#product .product-image .wishlist-icon i {
-  position: absolute;
-  top: 55px;
-  right: 14px;
-  background-color: white;
-  font-size: 20px;
-  border-radius: 50%;
-  padding: 7px;
-}
-#product .product-image .wishlist-icon i:hover {
-  color: red;
-  transition: 0.5s;
-}
-#product .product-image img {
-  width: 100%;
-}
-#product .product-image p {
-  margin-top: 15px;
-  color: rgba(93, 97, 103, 0.4784313725);
-}
-#product .product-image h5 {
-  font-weight: 400;
-}
-#product .product-image span {
-  font-weight: 900;
-  color: rgba(43, 47, 56, 0.6901960784);
+#company .company .company-desc .p {
+  width: 68%;
+  color: #6b6d71;
 }
 
-#help {
-  margin: 150px 0 150px 0;
+#team .team {
+  text-align: center;
+  margin-top: 150px;
 }
-#help .help-title h4 {
-  width: 70%;
+#team .team .team-wright {
+  top: 40px;
+  left: 60px;
 }
-#help .help-title .contact {
-  height: 10px;
-}
-#help .help-title .contact i {
-  transition: 0.5s;
-  color: #FC7C7C;
-  margin-top: 50px;
-}
-#help .help-title .contact span {
-  color: #FC7C7C;
-  font-size: 13px;
+#team .team .team-wright h2 {
   font-weight: 500;
-  transition: 0.5s;
+  font-size: 45px;
+  width: 50%;
+  color: #2b2f38;
+  margin-left: 300px;
 }
-#help .help-title .contact:hover i {
-  color: #5D6167;
-  transition: 0.5s;
+#team .team .team-wright p {
+  margin: 25px 0px 35px 300px;
+  width: 50%;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 17px;
 }
-#help .help-title .contact:hover span {
-  color: #5D6167;
-  transition: 0.5s;
-}
-#help .help-text p {
-  width: 80%;
-  color: #5D617E;
-}
-
-#testimonial .overview .text {
-  margin-top: 15px;
-}
-#testimonial .overview .text h1 {
-  color: #2B2F38;
-}
-#testimonial .overview .text p {
-  font-size: 15px;
-  margin-top: 25px;
-  color: #676167;
-}
-#testimonial .overview .since {
-  margin-top: 70px;
-}
-#testimonial .overview .since .image-left {
-  width: 100%;
-}
-#testimonial .overview .since .image-left img {
-  border-radius: 8% 8% 8% 0;
-  width: 100%;
-}
-#testimonial .overview .since .review {
-  margin-top: 70px;
+#team .co-founder .image img {
   width: 90%;
 }
-#testimonial .overview .since .review p {
-  color: #676167;
+#team .co-founder .text {
+  margin: 15px 0px 35px;
+  text-align: center;
+  margin-right: 70px;
 }
-#testimonial .overview .since .review span {
-  color: #676167;
-  font-size: 12px;
+#team .co-founder .text .hr .hr-red hr {
+  text-align: center;
+  margin: auto;
+  width: 10%;
+  color: red;
 }
-#testimonial .since .image-right {
-  width: 100%;
-  padding: 10px;
+#team .co-founder .social {
+  text-align: center;
+  margin-right: 70px;
 }
-#testimonial .since .image-right img {
-  border-radius: 8% 8% 8% 0;
-  width: 100%;
+#team .co-founder .social i {
+  border-radius: 50%;
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 7px;
+  background-color: rgba(0, 0, 0, 0.871);
+  color: white;
+  transition: 0.5s;
 }
-#testimonial .since .review {
-  margin-top: 70px;
-  width: 90%;
-}
-#testimonial .since .review p {
-  color: #676167;
-}
-#testimonial .since .review span {
-  color: #676167;
-  font-size: 12px;
+#team .co-founder .social i:hover {
+  background-color: #fc5f5f;
+  transition: 0.5s;
 }
 
 #interested .interested-desc {
@@ -416,7 +273,7 @@ header .navigation i {
   font-weight: 700;
   font-size: 40px;
   width: 50%;
-  color: #2B2F38;
+  color: #2b2f38;
   margin-left: 330px;
 }
 #interested .interested-desc .interested-wright p {
@@ -512,4 +369,4 @@ footer .footer-top .touch-footer p {
 }
 footer .footer-bottom {
   margin-bottom: 70px;
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=about.css.map */
