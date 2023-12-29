@@ -3,6 +3,12 @@ a {
   color: black;
 }
 
+header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+}
 header .natural {
   display: flex;
 }
@@ -41,71 +47,6 @@ header .natural .name {
 header .navigation {
   display: flex;
   margin: 10px 0px 0px 10px;
-}
-header .navigation .store {
-  height: 39px;
-  position: relative;
-  margin-right: 10px;
-}
-header .navigation .store:hover .sub-menu {
-  opacity: 1;
-  z-index: 1;
-  border-top-width: thick;
-}
-header .navigation .store i {
-  position: absolute;
-  top: 4px;
-  right: 8px;
-  font-size: 13px;
-}
-header .navigation .store .sub-menu {
-  position: absolute;
-  background-color: white;
-  width: 220px;
-  height: 100px;
-  padding: 13px;
-  left: -20px;
-  opacity: 0;
-  z-index: -1;
-  border-top: 1px solid red;
-  margin: 1em 0;
-}
-header .navigation .store .sub-menu a {
-  display: block;
-  padding: 7px;
-}
-header .navigation .account {
-  position: relative;
-  margin-right: 10px;
-  height: 39px;
-}
-header .navigation .account:hover .login {
-  opacity: 1;
-  z-index: 1;
-  border-top-width: thick;
-}
-header .navigation .account i {
-  position: absolute;
-  top: 4px;
-  right: 8px;
-  font-size: 13px;
-}
-header .navigation .account .login {
-  position: absolute;
-  background-color: white;
-  width: 220px;
-  height: 100px;
-  margin-top: 20px;
-  padding: 13px;
-  left: -20px;
-  opacity: 0;
-  z-index: -1;
-  border-top: 1px solid red;
-  margin: 1em 0;
-}
-header .navigation .account .login a {
-  display: block;
-  padding: 7px;
 }
 header .navigation a {
   margin-right: 25px;

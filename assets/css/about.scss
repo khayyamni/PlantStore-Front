@@ -5,6 +5,10 @@ a {
 
 //header start
 header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
   .natural {
     display: flex;
     .search-icon {
@@ -45,85 +49,6 @@ header {
   .navigation {
     display: flex;
     margin: 10px 0px 0px 10px;
-
-    .store {
-      height: 39px;
-      position: relative;
-      margin-right: 10px;
-
-      &:hover {
-        .sub-menu {
-          opacity: 1;
-          z-index: 1;
-          border-top-width: thick;
-        }
-      }
-
-      i {
-        position: absolute;
-        top: 4px;
-        right: 8px;
-        font-size: 13px;
-      }
-
-      .sub-menu {
-        position: absolute;
-        background-color: white;
-        width: 220px;
-        height: 100px;
-        padding: 13px;
-        left: -20px;
-        opacity: 0;
-        z-index: -1;
-        border-top: 1px solid red;
-        margin: 1em 0;
-
-        a {
-          display: block;
-          padding: 7px;
-        }
-      }
-    }
-
-    .account {
-      position: relative;
-      margin-right: 10px;
-      height: 39px;
-
-      &:hover {
-        .login {
-          opacity: 1;
-          z-index: 1;
-          border-top-width: thick;
-        }
-      }
-
-      i {
-        position: absolute;
-        top: 4px;
-        right: 8px;
-        font-size: 13px;
-      }
-
-      .login {
-        position: absolute;
-        background-color: white;
-        width: 220px;
-        height: 100px;
-        margin-top: 20px;
-        padding: 13px;
-        left: -20px;
-        opacity: 0;
-        z-index: -1;
-        border-top: 1px solid red;
-        margin: 1em 0;
-
-        a {
-          display: block;
-          padding: 7px;
-        }
-      }
-    }
 
     a {
       margin-right: 25px;
