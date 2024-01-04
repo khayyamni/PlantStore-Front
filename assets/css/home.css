@@ -49,14 +49,27 @@ header .navigation {
   margin: 10px 0px 0px 10px;
 }
 header .navigation a {
-  margin-right: 25px;
+  margin-left: 25px;
 }
 header .navigation a:hover {
   color: red;
   transition: 0.5s;
 }
-header .navigation i {
-  margin: 5px 0px 0px 15px;
+header .navigation .icon .basket {
+  position: relative;
+}
+header .navigation .icon .basket span {
+  position: absolute;
+  bottom: 14px;
+  left: 38px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  align-items: center;
+  font-size: 13px;
 }
 
 #banner {
@@ -86,7 +99,7 @@ header .navigation i {
   transition: 0.5s;
 }
 #banner .banner-wright button:hover {
-  background-color: #75c32c;
+  background-color: rgba(76, 171, 3, 0.799);
   transition: 0.5s;
 }
 

@@ -72,84 +72,109 @@ header .navigation .icon .basket span {
   font-size: 13px;
 }
 
-#banner {
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  border-bottom-left-radius: 70px;
-  border-bottom-right-radius: 70px;
-}
-#banner .banner-wright {
-  padding: 85px;
-  margin-left: 35px;
-}
-#banner .banner-wright h1 {
-  margin-top: 150px;
-  font-size: 60px;
-  font-weight: 700;
-  color: #2b2f38;
-}
-
-#contact {
-  margin-top: 100px;
-}
-#contact .detail {
-  margin-bottom: 100px;
-}
-#contact .detail i {
-  color: #fc5f5f;
-  font-size: 20px;
-}
-#contact .detail .contact-details .our {
+.account .login {
+  width: 100%;
   display: flex;
-  position: relative;
+  justify-content: center;
 }
-#contact .detail .contact-details .our .location {
-  padding: 25px;
-  margin-left: 25px;
+.account .login form {
+  width: 40%;
+  border: 3px solid #f1f1f1;
 }
-#contact .detail .contact-details .our .location i {
-  position: absolute;
-  left: 12px;
-  top: 50px;
+.account .login input[type=text], .account .login input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
 }
-#contact .detail .contact-details .our .call {
-  padding: 25px;
-  margin-left: 85px;
+.account .login button {
+  background-color: rgba(76, 171, 3, 0.799);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
-#contact .detail .contact-details .our .call i {
-  position: absolute;
-  left: 302px;
-  top: 50px;
+.account .login button:hover {
+  opacity: 0.8;
 }
-#contact .detail .contact-details .email {
-  margin: 0px 0px 55px 50px;
-  position: relative;
-}
-#contact .detail .contact-details .email i {
-  position: absolute;
-  left: -40px;
-  top: 30px;
-}
-#contact .detail .contact-details .form {
-  margin: 100px 0 100px;
-}
-#contact .detail .contact-details .form h4 {
-  margin-bottom: 35px;
-}
-#contact .detail .contact-details .form button {
+.account .login .registerbtn {
   width: 140px;
   height: 45px;
   border-radius: 30px;
   background-color: #fc5f5f;
-  border: none;
+  padding: 10px 18px;
+}
+.account .login .registerbtn:hover {
+  background-color: rgba(76, 171, 3, 0.799);
   transition: 0.5s;
 }
-#contact .detail .contact-details .form button:hover {
-  background-color: #75c32c;
+.account .login .container {
+  padding: 16px;
+}
+.account .login span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.account .register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.account .register form {
+  width: 40%;
+  border: 3px solid #f1f1f1;
+}
+.account .register input[type=email], .account .register input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+}
+.account .register button {
+  background-color: rgba(76, 171, 3, 0.799);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.account .register button:hover {
+  opacity: 0.8;
+}
+.account .register .loginbtn {
+  width: 140px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #fc5f5f;
+  padding: 10px 18px;
+}
+.account .register .loginbtn:hover {
+  background-color: rgba(76, 171, 3, 0.799);
   transition: 0.5s;
+}
+.account .register .container {
+  padding: 16px;
+}
+.account .register span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.account .register a {
+  color: #149cea;
 }
 
+footer {
+  margin-top: 100px;
+}
 footer .footer-top {
   margin-bottom: 70px;
 }
@@ -218,4 +243,4 @@ footer .footer-top .touch-footer p {
 }
 footer .footer-bottom {
   margin-bottom: 70px;
-}/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=account.css.map */

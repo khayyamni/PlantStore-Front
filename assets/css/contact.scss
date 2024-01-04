@@ -51,15 +51,31 @@ header {
     margin: 10px 0px 0px 10px;
 
     a {
-      margin-right: 25px;
+      margin-left: 25px;
       &:hover {
         color: red;
         transition: 0.5s;
       }
     }
 
-    i {
-      margin: 5px 0px 0px 15px;
+    .icon{
+     
+      .basket{
+        position: relative;
+        span{
+          position: absolute;
+          bottom: 14px;
+          left: 38px;
+          background-color: red;
+          color: white;
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          align-items: center;
+          font-size: 13px;
+        }
+      }
     }
   }
 }
@@ -87,7 +103,81 @@ header {
 }
 // banner end
 
+#contact{
+  margin-top: 100px;
+  .detail{
+    margin-bottom: 100px;
+    i{
+      color: #fc5f5f;
+      font-size: 20px;
+    }
+    .contact-details{
+      .our{
+        display: flex;
+        position: relative;
 
+        .location{
+          padding:25px;
+          margin-left: 25px;
+          i{
+            position: absolute;
+            left: 12px;
+            top: 50px;
+          }
+          
+        }
+
+        .call{
+          padding:25px;
+          margin-left: 85px;
+          i{
+            position: absolute;
+            left: 302px;
+            top: 50px;
+          }
+        }
+
+      }
+
+
+
+      .email{
+
+        margin: 0px 0px 55px 50px;
+        position: relative;
+        i{
+          position: absolute;
+          left: -40px;
+          top: 30px;
+        }
+      }
+
+
+
+
+      .form{
+        margin: 100px 0 100px; 
+        h4{
+          margin-bottom: 35px;
+        }
+        
+        button {
+          width: 140px;
+          height: 45px;
+          border-radius: 30px;
+          background-color: #fc5f5f;
+          border: none;
+          transition: 0.5s;
+    
+          &:hover {
+            background-color: #75c32c;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
 
 //------------////
 

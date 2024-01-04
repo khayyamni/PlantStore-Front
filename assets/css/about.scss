@@ -51,15 +51,31 @@ header {
     margin: 10px 0px 0px 10px;
 
     a {
-      margin-right: 25px;
+      margin-left: 25px;
       &:hover {
         color: red;
         transition: 0.5s;
       }
     }
 
-    i {
-      margin: 5px 0px 0px 15px;
+    .icon{
+     
+      .basket{
+        position: relative;
+        span{
+          position: absolute;
+          bottom: 14px;
+          left: 38px;
+          background-color: red;
+          color: white;
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          align-items: center;
+          font-size: 13px;
+        }
+      }
     }
   }
 }

@@ -90,66 +90,9 @@ header .navigation .icon .basket span {
   color: #2b2f38;
 }
 
-#contact {
+footer {
   margin-top: 100px;
 }
-#contact .detail {
-  margin-bottom: 100px;
-}
-#contact .detail i {
-  color: #fc5f5f;
-  font-size: 20px;
-}
-#contact .detail .contact-details .our {
-  display: flex;
-  position: relative;
-}
-#contact .detail .contact-details .our .location {
-  padding: 25px;
-  margin-left: 25px;
-}
-#contact .detail .contact-details .our .location i {
-  position: absolute;
-  left: 12px;
-  top: 50px;
-}
-#contact .detail .contact-details .our .call {
-  padding: 25px;
-  margin-left: 85px;
-}
-#contact .detail .contact-details .our .call i {
-  position: absolute;
-  left: 302px;
-  top: 50px;
-}
-#contact .detail .contact-details .email {
-  margin: 0px 0px 55px 50px;
-  position: relative;
-}
-#contact .detail .contact-details .email i {
-  position: absolute;
-  left: -40px;
-  top: 30px;
-}
-#contact .detail .contact-details .form {
-  margin: 100px 0 100px;
-}
-#contact .detail .contact-details .form h4 {
-  margin-bottom: 35px;
-}
-#contact .detail .contact-details .form button {
-  width: 140px;
-  height: 45px;
-  border-radius: 30px;
-  background-color: #fc5f5f;
-  border: none;
-  transition: 0.5s;
-}
-#contact .detail .contact-details .form button:hover {
-  background-color: #75c32c;
-  transition: 0.5s;
-}
-
 footer .footer-top {
   margin-bottom: 70px;
 }
@@ -218,4 +161,4 @@ footer .footer-top .touch-footer p {
 }
 footer .footer-bottom {
   margin-bottom: 70px;
-}/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=basket.css.map */
