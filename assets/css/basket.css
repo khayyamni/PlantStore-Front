@@ -90,6 +90,74 @@ header .navigation .icon .basket span {
   color: #2b2f38;
 }
 
+#basket .basket-all .empty {
+  padding: 6rem 0;
+  text-align: center;
+}
+#basket .basket-all .empty p {
+  font-size: 33px;
+  color: #A0A0A0;
+  margin-bottom: 60px;
+}
+#basket .basket-all .empty a {
+  font-size: 14px;
+  background-color: #fc5f5f;
+  color: white;
+  transition: 0.5s;
+  padding: 20px 30px;
+  letter-spacing: 3px;
+  border-radius: 30px;
+}
+#basket .basket-all .empty a:hover {
+  color: white;
+  background-color: rgba(76, 171, 3, 0.799);
+}
+#basket .basket-all .cart-table {
+  padding: 6rem 0;
+}
+#basket .basket-all .cart-table h3 {
+  font-size: 52px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#basket .basket-all .cart-table .grand-total {
+  text-align: end;
+}
+#basket .basket-all .cart-table .grand-total span {
+  text-align: end;
+  font-size: 14px;
+  background-color: #fc5f5f;
+  color: white;
+  transition: 0.5s;
+  padding: 20px 30px;
+  letter-spacing: 3px;
+  border-radius: 30px;
+}
+#basket .basket-all .cart-table table thead tr {
+  text-align: center;
+}
+#basket .basket-all .cart-table table thead tr th {
+  font-size: 18px;
+}
+#basket .basket-all .cart-table table thead tr th:nth-child(1) {
+  width: 18%;
+}
+#basket .basket-all .cart-table table tbody tr {
+  vertical-align: baseline;
+}
+#basket .basket-all .cart-table table tbody tr img {
+  height: 123px;
+  width: 135px;
+}
+#basket .basket-all .cart-table table tbody tr td {
+  font-size: 22px;
+  text-align: center;
+}
+#basket .basket-all .cart-table table tbody tr td i {
+  font-size: 22px;
+  cursor: pointer;
+}
+
 footer {
   margin-top: 100px;
 }

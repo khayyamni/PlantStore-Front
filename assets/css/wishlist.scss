@@ -105,6 +105,100 @@ a {
   }
   // banner end
   
+
+
+  // Wishlist
+
+#wishlists {
+
+  .wishlist-all {
+
+      .empty {
+          padding: 6rem 0;
+          text-align: center;
+
+          p {
+            font-size: 33px;
+              color: #A0A0A0;
+              margin-bottom: 60px;
+          }
+
+          a {
+              font-size: 14px;
+              background-color: #fc5f5f;
+              color: white;
+              transition: 0.5s;
+              padding: 20px 30px;
+              letter-spacing: 3px;
+              border-radius: 30px;
+
+
+              &:hover {
+                  color: white;
+                  background-color: rgba(76, 171, 3, 0.799);
+                  
+              }
+          }
+      }
+
+      .wishlist-table {
+          padding: 6rem 0;
+
+          h3 {
+              font-size: 50px;
+              text-align: center;
+              margin-bottom: 30px;
+          }
+          table {
+              thead {
+                  tr {
+                      text-align: center;
+
+                      th {
+                          font-size: 18px;
+
+                          &:nth-child(1) {
+                              width: 18%;
+                          }
+                      }
+                  }
+              }
+
+              tbody {
+                  tr {
+                      vertical-align: baseline;
+
+                      img {
+                          height: 130px;
+                          width: 135px;
+                      }
+
+                      td {
+                          font-size: 22px;
+                          text-align: center;
+
+                          i {
+                              font-size: 22px;
+                              cursor: pointer;
+                              transition: 0.5s;
+                              &:hover{
+                                color: rgba(76, 171, 3, 0.799);
+                                transition: 0.5s;
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      }
+
+
+  }
+}
+
+
+
+
   //main end
 
 

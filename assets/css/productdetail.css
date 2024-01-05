@@ -72,87 +72,62 @@ header .navigation .icon .basket span {
   font-size: 13px;
 }
 
-#banner {
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  border-bottom-left-radius: 70px;
-  border-bottom-right-radius: 70px;
+#detail-all .detail {
+  margin: 100px 0 100px;
 }
-#banner .banner-wright {
-  padding: 85px;
-  margin-left: 35px;
+#detail-all .detail .image {
+  padding: 45px;
 }
-#banner .banner-wright h1 {
-  margin-top: 150px;
-  font-size: 60px;
-  font-weight: 700;
-  color: #2b2f38;
+#detail-all .detail .image img {
+  width: 100%;
 }
-
-#wishlists .wishlist-all .empty {
-  padding: 6rem 0;
-  text-align: center;
+#detail-all .detail .desc {
+  padding: 50px;
+  line-height: 30px;
 }
-#wishlists .wishlist-all .empty p {
-  font-size: 33px;
-  color: #A0A0A0;
-  margin-bottom: 60px;
-}
-#wishlists .wishlist-all .empty a {
-  font-size: 14px;
-  background-color: #fc5f5f;
-  color: white;
-  transition: 0.5s;
-  padding: 20px 30px;
-  letter-spacing: 3px;
-  border-radius: 30px;
-}
-#wishlists .wishlist-all .empty a:hover {
-  color: white;
-  background-color: rgba(76, 171, 3, 0.799);
-}
-#wishlists .wishlist-all .wishlist-table {
-  padding: 6rem 0;
-}
-#wishlists .wishlist-all .wishlist-table h3 {
-  font-size: 50px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-#wishlists .wishlist-all .wishlist-table table thead tr {
-  text-align: center;
-}
-#wishlists .wishlist-all .wishlist-table table thead tr th {
-  font-size: 18px;
-}
-#wishlists .wishlist-all .wishlist-table table thead tr th:nth-child(1) {
-  width: 18%;
-}
-#wishlists .wishlist-all .wishlist-table table tbody tr {
-  vertical-align: baseline;
-}
-#wishlists .wishlist-all .wishlist-table table tbody tr img {
-  height: 130px;
-  width: 135px;
-}
-#wishlists .wishlist-all .wishlist-table table tbody tr td {
-  font-size: 22px;
-  text-align: center;
-}
-#wishlists .wishlist-all .wishlist-table table tbody tr td i {
-  font-size: 22px;
-  cursor: pointer;
+#detail-all .detail .desc a {
   transition: 0.5s;
 }
-#wishlists .wishlist-all .wishlist-table table tbody tr td i:hover {
+#detail-all .detail .desc a:hover {
   color: rgba(76, 171, 3, 0.799);
   transition: 0.5s;
 }
-
-footer {
-  margin-top: 100px;
+#detail-all .detail .desc h1 {
+  font-size: 45px;
+  margin: 25px 0 50px;
 }
+#detail-all .detail .desc p {
+  width: 85%;
+}
+#detail-all .detail .desc button {
+  margin-top: 20px;
+  width: 50%;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #fc5f5f;
+  border: none;
+  transition: 0.5s;
+}
+#detail-all .detail .desc button:hover {
+  background-color: rgba(76, 171, 3, 0.799);
+  transition: 0.5s;
+}
+#detail-all .description a {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.667);
+  transition: 0.5s;
+}
+#detail-all .description a:hover {
+  color: rgba(93, 97, 103, 0.4980392157);
+  transition: 0.5s;
+}
+#detail-all .description p {
+  margin-top: 20px;
+  line-height: 27px;
+  color: #5D6167;
+}
+
 footer .footer-top {
   margin-bottom: 70px;
 }
@@ -221,4 +196,4 @@ footer .footer-top .touch-footer p {
 }
 footer .footer-bottom {
   margin-bottom: 70px;
-}/*# sourceMappingURL=wishlist.css.map */
+}/*# sourceMappingURL=productdetail.css.map */
