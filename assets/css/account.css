@@ -48,6 +48,16 @@ header .navigation {
   display: flex;
   margin: 10px 0px 0px 10px;
 }
+header .navigation .button {
+  margin-left: 33px;
+}
+header .navigation .button button {
+  background-color: #fc5f5f;
+  margin-right: 25px;
+  padding: 0px;
+  width: 100%;
+  border: none;
+}
 header .navigation a {
   margin-left: 25px;
 }
@@ -102,14 +112,14 @@ header .navigation .icon .basket span {
 .account .login button:hover {
   opacity: 0.8;
 }
-.account .login .registerbtn {
+.account .login .register {
   width: 140px;
   height: 45px;
   border-radius: 30px;
   background-color: #fc5f5f;
   padding: 10px 18px;
 }
-.account .login .registerbtn:hover {
+.account .login .register:hover {
   background-color: rgba(76, 171, 3, 0.799);
   transition: 0.5s;
 }
@@ -150,14 +160,14 @@ header .navigation .icon .basket span {
 .account .register button:hover {
   opacity: 0.8;
 }
-.account .register .loginbtn {
+.account .register .register {
   width: 140px;
   height: 45px;
   border-radius: 30px;
   background-color: #fc5f5f;
   padding: 10px 18px;
 }
-.account .register .loginbtn:hover {
+.account .register .register:hover {
   background-color: rgba(76, 171, 3, 0.799);
   transition: 0.5s;
 }
@@ -166,10 +176,8 @@ header .navigation .icon .basket span {
 }
 .account .register span.psw {
   float: right;
-  padding-top: 16px;
-}
-.account .register a {
-  color: #149cea;
+  padding: 10px;
+  margin-top: 12px;
 }
 
 footer {

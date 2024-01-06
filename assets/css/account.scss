@@ -49,6 +49,19 @@ a {
     .navigation {
       display: flex;
       margin: 10px 0px 0px 10px;
+
+      .button{
+        margin-left: 33px;
+        button {
+          
+          
+          background-color: #fc5f5f;
+          margin-right: 25px;
+          padding: 0px;
+          width: 100%;
+          border: none;
+        }
+      }
   
       a {
         margin-left: 25px;
@@ -122,7 +135,7 @@ a {
             opacity: 0.8;
           }
           
-          .registerbtn {
+          .register {
             width: 140px;
             height: 45px;
             border-radius: 30px;
@@ -183,7 +196,7 @@ a {
             opacity: 0.8;
           }
           
-          .loginbtn {
+          .register {
             width: 140px;
             height: 45px;
             border-radius: 30px;
@@ -202,15 +215,13 @@ a {
           
           span.psw {
             float: right;
-            padding-top: 16px;
-          }
-          
-          a{
-            color: #149cea;
+            padding: 10px;
+            margin-top: 12px;
           }
         
     }
 }
+
 
 
 

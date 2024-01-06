@@ -48,6 +48,16 @@ header .navigation {
   display: flex;
   margin: 10px 0px 0px 10px;
 }
+header .navigation .button {
+  margin-left: 33px;
+}
+header .navigation .button button {
+  background-color: #fc5f5f;
+  margin-right: 25px;
+  padding: 0px;
+  width: 100%;
+  border: none;
+}
 header .navigation a {
   margin-left: 25px;
 }
@@ -112,9 +122,12 @@ header .navigation .icon .basket span {
   background-color: rgba(76, 171, 3, 0.799);
   transition: 0.5s;
 }
+#detail-all .description {
+  text-align: center;
+}
 #detail-all .description a {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 40px;
   color: rgba(0, 0, 0, 0.667);
   transition: 0.5s;
 }
@@ -123,7 +136,9 @@ header .navigation .icon .basket span {
   transition: 0.5s;
 }
 #detail-all .description p {
+  width: 70%;
   margin-top: 20px;
+  margin-left: 200px;
   line-height: 27px;
   color: #5D6167;
 }

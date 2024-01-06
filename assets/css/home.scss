@@ -33,6 +33,7 @@ header {
         top: 15px;
         right: 10px;
         color: rgba(0, 0, 0, 0.655);
+        cursor: pointer;
       }
     }
     .image {
@@ -51,7 +52,20 @@ header {
 
   .navigation {
     display: flex;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 1px;
+
+    .button{
+      margin-left: 33px;
+      button {
+        
+        
+        background-color: #fc5f5f;
+        margin-right: 25px;
+        padding: 0px;
+        width: 100%;
+        border: none;
+      }
+    }
 
     a {
       margin-left: 25px;
